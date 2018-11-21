@@ -1,0 +1,11 @@
+.logo{
+-fx-text-fill: #2F319F;
+-fx-background-radius: 50.0;
+-fx-background-color: white;
+-fx-font-family: "Berkshire Swash";
+-fx-font-size: 45.0;
+}
+
+.estiloLetra{
+	-fx-font-family:"Berkshire Swash"
+}

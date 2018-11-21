@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2F319F;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
+   <children>
+      <Label fx:id="logoAGM" layoutX="239.0" layoutY="14.0" prefHeight="120.0" prefWidth="123.0" style="-fx-background-color: white; -fx-font-size: 50; -fx-background-radius: 70;" styleClass="logo" stylesheets="@application.css" text="AGM" textAlignment="CENTER" AnchorPane.bottomAnchor="266.0" AnchorPane.leftAnchor="239.0" AnchorPane.rightAnchor="238.0" AnchorPane.topAnchor="14.0" />
+      <Label fx:id="labelNombre" layoutX="198.0" layoutY="157.0" prefHeight="43.0" prefWidth="205.0" style="-fx-text-fill: white; -fx-font-size: 20;" styleClass="estiloLetra" stylesheets="@application.css" text="Adrián García Montón" textAlignment="CENTER" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="198.0" AnchorPane.rightAnchor="197.0" AnchorPane.topAnchor="157.0" />
+      <Label fx:id="labelDescri" layoutX="208.0" layoutY="222.0" prefHeight="21.0" prefWidth="180.0" style="-fx-text-fill: white; -fx-font-size: 15;" styleClass="estiloLetra" stylesheets="@application.css" text="Bienvenido a mi aplicación" textAlignment="CENTER" />
+      <VBox fx:id="spinnerPane" layoutX="248.0" layoutY="313.0" opacity="0.0" prefHeight="73.0" prefWidth="105.0" visible="false">
+         <children>
+            <JFXSpinner />
+            <Label style="-fx-text-fill: white;" text="Espere por favor..." />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
